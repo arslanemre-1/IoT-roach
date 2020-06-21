@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <UserSecretsId>aspnet-Roach-77F8FA00-39F1-446D-847B-EE52BE069E72</UserSecretsId>
+        <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    </PropertyGroup>
+
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.App" />
+        <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.3" />
+        <PackageReference Include="MQTTnet.AspNetCore" Version="3.0.8" />
+        <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="3.0.8" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\images" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roach", "Roach\Roach.csproj", "{C7158ABF-CE0E-4F30-919B-0AFC5D38F76A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7158ABF-CE0E-4F30-919B-0AFC5D38F76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7158ABF-CE0E-4F30-919B-0AFC5D38F76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7158ABF-CE0E-4F30-919B-0AFC5D38F76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7158ABF-CE0E-4F30-919B-0AFC5D38F76A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
